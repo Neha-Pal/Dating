@@ -1,0 +1,228 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: linear-gradient(180deg,rgb(74, 187, 235),rgb(249, 136, 155));
+    background-repeat: no-repeat;
+    /* height: 900px; */
+    width: 100%;
+}
+
+h1{
+    background-color: antiquewhite;
+    padding: 10px;
+}
+.male-section{
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    float: left;
+    width: 500px;
+}
+.male-section p{
+    font-size: 20px;
+}
+.male-section a{
+    text-decoration: none;
+    color: blueviolet;
+    font-weight: 600;
+}
+
+.male_img{
+    height: 400px;
+    width: 300px;
+    border-radius: 10px;
+}
+
+.male_1{
+    background-color: aqua;
+    padding: 25px;
+    border-radius: 10px;
+}
+.male_1 h2{
+    font-size: 40px;
+}
+
+.male_2{
+    background-color: aqua;
+    padding: 25px;
+    border-radius: 10px;
+}
+.male_2 h2{
+    font-size: 40px;
+}
+
+
+.male_3{
+    background-color: aqua;
+    padding: 25px;
+    border-radius: 10px;
+}
+.male_3 h2{
+    font-size: 40px;
+}
+
+
+.male_4{
+    background-color: aqua;
+    padding: 25px;
+    border-radius: 10px;
+}
+.male_4 h2{
+    font-size: 40px;
+}
+.male_5{
+    background-color: aqua;
+    padding: 25px;
+    border-radius: 10px;
+}
+.male_5 h2{
+    font-size: 40px;
+}
+
+
+.male_6{
+    background-color: aqua;
+    padding: 25px;
+    border-radius: 10px;
+}
+.male_6 h2{
+    font-size: 40px;
+}
+
+
+.male_7{
+    background-color: aqua;
+    padding: 25px;
+    border-radius: 10px;
+}
+.male_7 h2{
+    font-size: 40px;
+}
+
+.male_8{
+    background-color: aqua;
+    padding: 25px;
+    border-radius: 10px;
+}
+.male_8 h2{
+    font-size: 40px;
+}
+
+.male_9{
+    background-color: aqua;
+    padding: 25px;
+    border-radius: 10px;
+}
+.male_9 h2{
+    font-size: 30px;
+}
+
+/* female */
+.female-section{
+    padding: 20px;
+    padding-bottom: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    float: left;
+    width: 500px;
+}
+.female-section p{
+    font-size: 20px;
+}
+.female-section a{
+    text-decoration: none;
+    color: blueviolet;
+    font-weight: 600;
+}
+
+.female_img{
+    height: 400px;
+    width: 300px;
+    border-radius: 10px;
+}
+
+.female_1{
+    background-color: hotpink;
+    padding: 25px;
+    border-radius: 10px;
+}
+.female_1 h2{
+    font-size: 40px;
+}
+.female_2{
+    background-color: hotpink;
+    padding: 25px;
+    border-radius: 10px;
+}
+.female_2 h2{
+    font-size: 40px;
+}
+.female_3{
+    background-color: hotpink;
+    padding: 25px;
+    border-radius: 10px;
+}
+.female_3 h2{
+    font-size: 40px;
+}
+
+.female_4{
+    background-color: hotpink;
+    padding: 25px;
+    border-radius: 10px;
+}
+.female_4 h2{
+    font-size: 40px;
+}
+.female_5{
+    background-color: hotpink;
+    padding: 25px;
+    border-radius: 10px;
+}
+.female_5 h2{
+    font-size: 40px;
+}
+.female_6{
+    background-color: hotpink;
+    padding: 25px;
+    border-radius: 10px;
+}
+.female_6 h2{
+    font-size: 40px;
+}
+.female_7{
+    background-color: hotpink;
+    padding: 25px;
+    border-radius: 10px;
+}
+.female_7 h2{
+    font-size: 40px;
+}
+.female_8{
+    background-color: hotpink;
+    padding: 25px;
+    border-radius: 10px;
+}
+.female_8 h2{
+    font-size: 40px;
+}
+.female_9{
+    background-color: hotpink;
+    padding: 25px;
+    border-radius: 10px;
+}
+.female_9 h2{
+    font-size: 40px;
+}
+.female-section :hover{
+    transform: scale(1.02);
+}
+.male-section :hover{
+    transform: scale(1.02);
+    cursor: pointer;
+}

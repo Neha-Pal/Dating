@@ -1,0 +1,144 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: url('dating.jpg');
+    background-size: cover;
+    height: 700px;
+    width: 100%;
+}
+a{
+    text-decoration: none;
+    color: aliceblue;
+    font-size: 1.6rem;
+}
+
+.menu{
+    display: flex;
+    justify-content: space-around;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 40px;  
+    padding: 20px; 
+    border-bottom: 1px solid white;
+    cursor: pointer;
+    align-items: center;
+
+}
+.menu a:hover{
+    font-size: 1.7rem;
+    color: antiquewhite;
+}
+
+.info{
+    margin: 30px;
+    padding: 25px;
+    color: rgb(255, 102, 102);
+}
+.info h2{
+    padding: 20px;
+    color: bisque;
+    font-size: 1.6rem;
+}
+.info h2 span{
+    font-size: 3rem;
+    color: rgb(252, 249, 165);
+    padding: 5px;
+}
+.info h3{
+    padding-left: 25px;
+    padding-top: 10px;
+    font-size: 1.3rem;
+    color: beige;
+    font-weight: 400;
+}
+.info h4{
+    padding-left: 25px;
+    padding-top: 8px;
+    font-size: 1.1rem;
+    color: rgb(251, 213, 155);
+    font-weight: 200;
+}
+.info h4 span{
+    font-size: 2rem;
+    color: aliceblue;
+    padding: 5px;
+}
+.info p{
+    color: pink;
+    padding-left: 25px;
+    padding-top: 8px;
+    font-size: 30px;
+}
+.info button{
+    padding: 12px;
+    margin: 30px;
+    border-radius: 10px;
+    font-size: 1.5rem;
+    font-weight: 500;
+    cursor: pointer;
+    color: rgb(25, 9, 2);
+    background-color: rgba(255, 105, 180,.8);
+}
+.register{
+    position: absolute;
+    top: 20%;
+    right: 15%;
+    width: 40%;
+    /* margin: 40px; */
+    background-color: rgba(245, 255, 240,.2);
+    padding-top: 40px;
+    padding-left: 40px;
+    padding-bottom: 40px;
+    align-items: center;
+    border-radius: 10px;
+    justify-content: center;
+}
+
+.register input{
+    padding: 8px;
+    margin: 10px;
+    width: 90%;
+    border-radius: 5px;
+    background-color: rgba(167, 151, 151,.4);
+    outline: none;
+    font-size: 1rem;
+    border: none;
+    color: black;
+    margin-bottom: 6px;
+}
+.register ::placeholder{
+    color: rgb(36, 34, 34);
+}
+.register h2{
+    font-size: 2.5rem;
+    text-align: left;
+    color: rgb(234, 227, 228);
+    text-shadow: 2px 1px rgb(80, 56, 56);
+}
+
+.register a{
+    padding: 12px;
+    margin-left: 190px;
+    margin-bottom: 60px;
+    border-radius: 10px;
+    font-size: 1.5rem;
+    font-weight: 500;
+    cursor: pointer;
+    color: rgb(25, 9, 2);
+    background-color: rgba(255, 105, 180,.5);
+}
+.register p{
+    padding: 8px;
+    margin: 25px;
+    font-size: 20px;
+    color: pink;
+}
+.register p span{
+    color: hotpink;
+    cursor: pointer;
+}
+
